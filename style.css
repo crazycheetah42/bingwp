@@ -1,0 +1,65 @@
+
+/* Navbar Styling */
+nav {
+    background-color: #333; /* Dark background */
+    padding: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex; /* Make items appear in a row */
+    justify-content: center; /* Center the items horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem; /* Spacing between items */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    font-size: 1.2rem; /* Slightly larger text */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+    color: #2958f1; /* Highlight color on hover */
+}
+
+main {
+    text-align: center; /* Centers text and inline elements like images */
+    padding: 2rem 1rem; /* Adds padding around the content */
+}
+
+#software-details img {
+    display: block;
+    margin: 2rem auto; /* Centers the image */
+    max-width: 80%; /* Ensures image doesn't overflow */
+}
+
+#software-details p {
+    padding: 1rem 2rem; /* Add left and right padding for readability */
+    line-height: 1.6; /* Improve text readability with proper line spacing */
+}
+
+#download-section {
+    margin-top: 2rem;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #2958f1;
+}
